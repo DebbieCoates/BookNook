@@ -1,4 +1,14 @@
-body {
+
+.green-text {
+    color: green;
+}
+
+.red-text {
+    color: red;
+}
+
+
+/* body {
     background-color: #F9FAFC;
 }
 
@@ -158,4 +168,4 @@ body {
 
 .approval {
     color: rgb(222, 146, 168);
-}
+} */
