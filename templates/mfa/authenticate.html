@@ -9,10 +9,10 @@
         {% blocktranslate %}Your account is protected by two-factor authentication. Please enter an authenticator code:{% endblocktranslate %}
     </p>
     <form class="authenticate"
-          method="POST"
-          action="{% url 'mfa_authenticate' %}">
+        method="POST"
+        action="{% url 'mfa_authenticate' %}">
         {% csrf_token %}
         {{ form.as_p }}
-        <button type="submit">{% trans "Sign In" %}</button>
+        <button class="btn btn-primary btn-lg" type="submit">{% trans "Sign In" %}</button>
     </form>
 {% endblock content %}
